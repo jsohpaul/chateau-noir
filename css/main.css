@@ -1,0 +1,36 @@
+
+body{
+	background-color: #efefef;
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
+}
+
+
+h1, h2, h3, a{
+	font-weight: 300;
+	text-decoration: none;
+}
+
+#logo{
+	width:100%;
+	display: 
+}
+
+#palette{
+	width: 100%;
+	height: 20%;
+	background-color: #ef0000;
+}
+
+
+.box{
+	width: 20%;
+	height: 100%;
+}
+
+.color1{
+	background-color: #282828;
+}
+
+
+

@@ -30,7 +30,7 @@
 
 .grid{
 	margin-bottom: 10px;
-	border: 1px solid #000000; 
+	/*border: 1px solid #000000; */
 }
 
 
@@ -51,12 +51,31 @@
 
 
 
+/*tablet*/
+@media (max-width: 768px) {
 
+
+
+
+
+}
 
 
 
 
 @media (max-width: 480px) {
+
+.col-1of5{
+	width: 100%;
+}
+
+footer .col-1of5{
+	width: 0%;
+}
+
+.col-1of10{
+	width: 33.33%;
+}
 	
 }
 

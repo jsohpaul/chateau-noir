@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$('li').hover(function(){
-		$(this).find('ul>li').stop().slideDown(1000);
+		$(this).find('ul>li').stop().slideToggle(300, 'swing');
 
 	});
 });

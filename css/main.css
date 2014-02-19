@@ -1,74 +1,168 @@
-header{
-	background: #dedede;
-}
-
-
 body{
 	background-color: #efefef;
-	font-family: Open Sans, sans-serif;
-	font-weight: 300;
+	font-family: "Bodoni Std", Times, serif;
+	font-weight: 100;
+	font-size: 1rem;
+	color: #000000;
 }
 
-#nav{
-	margin-right: auto;
-	margin-left: auto;
-}
-
-
-h1{
-	font-weight: 300;
-	font-size: .9rem;
-	display: block;
-	text-align: center;
+a{
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 1rem;
+	color: #000000;
 }
 
 h2{
+	display: inline;
+	/*border: 1px solid crimson; */
+	font-size: 1rem;
+	font-weight: 100;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+
+
+/*Navigation Menu */
+
+#logo{
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 100px;
+	/*border: 1px solid; */
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+nav ul li{
+	float: left;
+	width: 25%;
 	text-align: center;
+	border: 1px solid #000000;
+}
+
+nav ul li li{
+	display: none;
+}
+
+
+
+
+
+
+
+/*Dress css*/
+
+.dress img{
+	height: auto; 
+	width: auto;
+	max-width: 100%;
+
+}
+
+article{
+	margin: 0;
+	padding: 0;
+	border: 1px solid;
+}
+
+.dress{
+	background: #DEDEDE;
+}
+
+.dress h3 a{
+	font-size: 1.3rem;
+	display: inline;
+	text-align: center;
+	border-bottom: 1px solid #ea393f;
+	margin-left: 10px;
+	padding-bottom: 5px;
+
+}
+
+.dress h4{
+	font-size: .9rem;
+	font-weight: 100;
+	margin: 10 0 0 10px;
+	padding-bottom: 15px;
+	letter-spacing: .05rem;
+	color: #333333;
+
+}
+
+figure{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+	background-color: #2c2c2c;
+	height: 250px;
+	padding-top: 75px;
+	border-top: 1px solid #ea393f;
+	box-shadow: 0px 5px 10px #1e1e1e inset; 	
+
+}
+
+footer p{
+	color: #CCCCCC;
+	font-size: .75rem;
+	margin: 0 0 5 20px;
+	letter-spacing: .05rem;
+}
+
+footer img{
+	width: 30px;
+	height: 30px;
 	opacity: .80;
-	display: inline-block;
 }
 
-h2:hover{
+footer ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 3rem;
+	letter-spacing: .05rem;
 
-		-webkit-transform:translate(0px, -5px); /* Safari and Chrome */
-		-webkit-transition:-webkit-transform .5s;
-		-webkit-transition-timing-function:ease;
 }
 
-
-
-h2 a{
-	margin-left: 50px;
-	margin-righ: 50px;
-	font-weight: 300;
+footer li{
 	font-size: .8rem;
-	text-decoration: none;
+	font-size: .8rem;
+	color: #808080;
+	margin-bottom: 5px;
 }
 
-
-.row{
+#line{
 	width: 100%;
-	height: 50px;
+	height: 55%;
+	border-right: 1px solid #808080;
 }
 
-#color1{
-	background: #282828;
-}
 
-#color2{
-	background: #ea393f;
-}
 
-#color3{
-	background: #ee6165;
-}
 
-#color4{
-	background: #f2888c;
-}
 
-#color5{
-	background: #fbd7d9;
-}
+
+
+
+
+
+
+
 
 

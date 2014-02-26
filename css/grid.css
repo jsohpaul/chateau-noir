@@ -28,10 +28,12 @@
 	width: 10%;
 }
 
+/*
 .grid{
 	margin-bottom: 10px;
-	/*border: 1px solid #000000; */
-}
+	/*border: 1px solid #000000; }
+	*/
+
 
 
 /*after out class of grid, we want to apply something */
@@ -54,16 +56,10 @@
 /*tablet*/
 @media (max-width: 800px) {
 
-
-.col-1of5{
+/* Dress images */
+.col-1of5{ 
 	width: 50%;
 }
-
-
-
-
-
-
 }
 
 

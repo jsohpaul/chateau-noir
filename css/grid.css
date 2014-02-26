@@ -52,7 +52,13 @@
 
 
 /*tablet*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+
+
+.col-1of5{
+	width: 50%;
+}
+
 
 
 

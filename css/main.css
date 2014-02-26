@@ -28,40 +28,65 @@ ul{
 
 
 
+
+
+
+
+
 /*Navigation Menu */
+
+#bar-bg{
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #ea393f;
+: 
+}
+
 
 #logo{
 	display: block;
 	margin: auto;
 	width: 225px;
-	height: 125px;
+	height: 120px;
 	/*border: 1px solid; */
 }
 
 
 nav ul{
-	margin: 0px;
+	margin-top: 0px;
 	padding: 0px;
 	width: 65%;
 	margin: 0 auto;
 }
 
+
+
+
+
 nav ul li{
 	float: left;
 	width: 25%;
 	text-align: center;
+	margin-top: 15px;
+	color: #efefef;
 }
+
+
 
 nav ul li li{
 	display: none;
 	width: 100%;
+	margin-top: 10px;
 }
 
 nav ul li li a{
-	font-size: .75rem;
+	font-size: .80rem;
 	color: #808080;
 	letter-spacing: .05rem;
 }
+
+
+
+
 
 
 
@@ -72,7 +97,6 @@ nav ul li li a{
 	height: auto; 
 	width: auto;
 	max-width: 100%;
-
 }
 
 article{
@@ -90,7 +114,7 @@ article{
 	display: inline;
 	text-align: center;
 	border-bottom: 1px solid #ea393f;
-	margin-left: 10px;
+	margin-left: 5px;
 	padding-bottom: 5px;
 
 }
@@ -99,7 +123,7 @@ article{
 	font-size: .9rem;
 	font-weight: 100;
 	margin: 10 0 0 10px;
-	padding-bottom: 25px;
+	padding-bottom: 45px;
 	letter-spacing: .05rem;
 	color: #333333;
 
@@ -163,7 +187,7 @@ footer li{
 
 
 /*tablet*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
 
 
@@ -188,7 +212,7 @@ nav ul li{
 	text-align: center;
 }
 	
-	nav ul li li a{
+nav ul li li a{
 	font-size: 1rem;
 	color: #808080;
 	letter-spacing: .05rem;

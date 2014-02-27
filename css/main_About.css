@@ -31,29 +31,35 @@ h2{
 #logo{
 	display: block;
 	margin: auto;
-	width: 200px;
-	height: 100px;
+	width: 225px;
+	height: 125px;
 	/*border: 1px solid; */
 }
 
-ul{
+
+nav ul{
 	margin: 0px;
 	padding: 0px;
+	width: 65%;
+	margin: 0 auto;
 }
-
 
 nav ul li{
 	float: left;
 	width: 25%;
 	text-align: center;
-	border: 1px solid #000000;
 }
 
 nav ul li li{
 	display: none;
+	width: 100%;
 }
 
-
+nav ul li li a{
+	font-size: .75rem;
+	color: #808080;
+	letter-spacing: .05rem;
+}
 
 
 
@@ -61,56 +67,38 @@ nav ul li li{
 
 /*About css*/
 
-.aboutInfo img{
-	height: auto; 
-	width: auto;
-	max-width: 100%;
+.aboutBody    {
+            height: 100%;
+            width:100%;
+            background-color: black;
+            margin-bottom: 0px;
+            overflow: hidden;
+            position: relative;
+            }
 
-}
+.aboutText  {
+                width: 50%;
+                /* Fallback for web browsers that doesn't support RGBa */
+                background: rgb(0, 0, 0);
+                /*  RGBa with 0.6 opacity */
+                background: rgba(0, 0, 0, 0.6);
+                top: 150px;
+                position: absolute;
+                padding-left: 5px;
+                padding-right: 15px;
+                padding-top: 2px;
+                padding-bottom: 4px;
+                box-sizing:border-box;
+                -moz-box-sizing:border-box; /* Firefox */
+                -webkit-box-sizing:border-box; /* Safari */
+                font-family: "Bodoni Std", Times, serif;
+                font-size: 1rem;
+                line-height: 18px;
+                color: #F1F1F1;
+                font-weight: bold;
 
-article{
-	margin: 0;
-	padding: 0;
-	border: none;
-	text-align: center;
-}
+                }
 
-.aboutInfo{
-	background: #DEDEDE;
-}
-
-.aboutHeader h3 a{
-	font-size: 1.3rem;
-	display: inline;
-	text-align: center;
-	border-bottom: 1px solid #ea393f;
-	margin-left: 10px;
-	padding-bottom: 5px;
-
-}
-
-.aboutBodyText h4{
-	font-size: .9rem;
-	font-weight: 100;
-	margin: 10 10 10 10px;
-	padding-bottom: 15px;
-	letter-spacing: .05rem;
-	color: #333333;
-
-}
-
-.aboutHeader {
-	text-align: right;
-	height: auto;
-	width:auto;
-	margin-right: 20px;
-}
-
-.aboutBodyText {
-	text-align: left;
-	height: auto;
-	width:auto;
-}
 
 /*Footer*/
 

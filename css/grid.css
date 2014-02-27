@@ -60,6 +60,7 @@
 .col-1of5{ 
 	width: 50%;
 }
+
 }
 
 
@@ -79,6 +80,11 @@ footer .col-1of5{
 	width: 33.33%;
 }
 	
+
+.col-1of4 {
+	width: 100%;
+}
+
 }
 
 

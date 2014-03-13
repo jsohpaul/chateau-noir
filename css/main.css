@@ -96,11 +96,16 @@ img{
 article{
 	margin: 0;
 	padding: 0;
-	/*border: 1px solid;*/
+
 }
 
 .dress{
-	background: #DEDEDE;
+	background: -webkit-linear-gradient(left, #E5E5E5 , #EEEEEE); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left, #E5E5E5 , #EEEEEE); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, #E5E5E5 , #EEEEEE); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to left, #E5E5E5 , #EEEEEE);
+	border-top: 1px solid #ea393f;
+
 }
 
 
@@ -118,7 +123,6 @@ article{
 	border-bottom: 1px solid #ea393f;
 	margin-left: 5px;
 	padding-bottom: 5px;
-
 }
 
 .dress h4{
@@ -131,11 +135,13 @@ article{
 	letter-spacing: .05rem;
 	color: #333333;
 
+
 }
 
 figure{
 	margin: 0;
 	padding: 0;
+
 }
 
 
@@ -160,7 +166,7 @@ figure{
 
 .header-unit {
   height: 130px;
-  /*border: 2px solid #000;*/
+  background-color: #ffffff;
   border-right:none;
   border-left: none;
   position: relative;
@@ -184,6 +190,9 @@ video {
 video.fillWidth {
 	width: 100%;
 }
+
+
+
 
 
 
@@ -300,21 +309,12 @@ footer li{
 
 
 
-/*tablet*/
-@media (max-width: 800px) {
-
-
-
-
-
-}
-
 
 
 
 
 /*phone*/
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
 a{
 	font-size: 1.5rem;
@@ -330,6 +330,13 @@ nav ul li li a{
 	font-size: 1rem;
 	color: #808080;
 	letter-spacing: .05rem;
+}
+
+video{
+	display: none;
+}
+.header-unit {
+  background-color: #CDCDCD;
 }
 
 }

@@ -1,121 +1,253 @@
 body{
-	background-color: #efefef;
-	font-family: "Bodoni Std", Times, serif;
+	background-color: #DEDEDE;
+	font-family: "Bodoni Std", 'EB Garamond', serif;
 	font-weight: 100;
 	font-size: 1rem;
-	color: #000000;
+	color: #2c2c2c;
+	font-weight: 100;
 }
 
 a{
 	text-decoration: none;
 	font-weight: 100;
-	font-size: 1rem;
-	color: #000000;
+	font-size: 1.05rem;
+	color: #2c2c2c;
 }
 
 h2{
 	display: inline;
-	/*border: 1px solid crimson; */
 	font-size: 1rem;
-	font-weight: 100;
 	margin: 0px;
 	padding: 0px;
-
 }
+
+ul{
+	list-style-type: none;
+}
+
+
 
 
 
 
 /*Navigation Menu */
 
+#bar-bg{
+	background-color: #2c2c2c;
+	border-bottom: 1px solid #ea393f;
+}
+
+
 #logo{
 	display: block;
 	margin: auto;
-	width: 225px;
-	height: 125px;
+	width: 300px;
+	height: 150px;
 	/*border: 1px solid; */
 }
 
 
 nav ul{
-	margin: 0px;
+	margin-top: 0px;
 	padding: 0px;
 	width: 65%;
 	margin: 0 auto;
 }
 
+
 nav ul li{
 	float: left;
 	width: 25%;
 	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 7px;
+	color: #efefef;
 }
+
+
 
 nav ul li li{
 	display: none;
 	width: 100%;
+	
 }
 
 nav ul li li a{
-	font-size: .75rem;
+	font-size: .80rem;
 	color: #808080;
 	letter-spacing: .05rem;
 }
 
-/*Shopping Bag css*/
 
 
-.productImage img{ 
-	max-width:100%; 
-	max-height: 100%;
-	display:block;
-	float: left;
-	background-color: none;
-	overflow: hidden;
-	position: relative;	
+
+
+
+
+
+/*Dress css*/
+
+img{
+	height: auto; 
+	width: auto;
+	max-width: 100%;
 }
 
-.productImage #mainImage{
-	max-width:100%; 
-	max-height: 100%;
-	display:block;
-	margin-right: -20px;
-	float: left;
-	background-color: none;
-	overflow: hidden;
-	position: relative;	
+article{
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid;*/
 }
 
-.returnPolicy {
-	background-color: black;
+.dress{
+	background: #DEDEDE;
+}
+
+
+.dress h3 {
+	font-size: .8rem;
+	font-weight: 100;
+	color: #888888;
+
+}
+
+.dress h3 a{
+	font-size: 1.3rem;
+	display: inline;
+	text-align: center;
+	border-bottom: 1px solid #ea393f;
+	margin-left: 5px;
+	padding-bottom: 5px;
+
+}
+
+.dress h4{
+	font-size: .8rem;
+	font-weight: 100;
+	margin: 10 0 0 10px;
+	padding-bottom: 35px;
+	padding-top: 10px;
+	padding-right: 15px;
+	letter-spacing: .05rem;
+	color: #333333;
+
+}
+
+figure{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+/*subbrand*/
+.subbrand{
+	background-color: #ffffff;
+	height: 130px;
+}
+
+.subbrand img{
+	width: 200px;
+	position: absolute;
+	z-index: 100;
+	margin-top: 30px;
+}
+
+.header-unit {
+  height: 130px;
+  /*border: 2px solid #000;*/
+  border-right:none;
+  border-left: none;
+  position: relative;
+  padding: 20px;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
 	width:100%;
-	height:448px;
-	color: white;
-	padding-top: 0.001em;
-	padding-left: 0.5em;
-}
-
-/*return policy */
-.content{
-	width: 100%;
 	overflow: hidden;
 }
-
-a.morelink {
-	text-decoration:none;
-	outline: none;
-	color:#EA393F;
+video {
+	position:absolute;
+	z-index:0;
+	opacity: .5;
+}
+video.fillWidth {
+	width: 100%;
 }
 
-a.morelink:visited {
-	text-decoration:none;
-	outline: none;
-	color:#EA393F;
+
+
+
+
+/*Product*/
+
+.product{
+
+	
 }
 
-.morecontent span {
-	display: none;
+.product img{
 
 }
+
+.info{
+	/*border: 1px dotted black;*/
+	padding: 15px;
+}
+
+.info h3{
+	font-size: 1.75rem;
+	font-weight: 100;
+	border-bottom: 2px solid #ea393f;
+}
+
+.info ul{
+	margin: auto 0px;
+	padding: 0px;
+
+}
+
+.info p{
+	padding-bottom: 20px;
+}
+
+.info li a{
+	font-weight: 100;
+	font-size: .9rem;
+	color: #DEDEDE;
+	float: left;
+	padding: 10px;
+	margin: 1px;
+	width: 32%;
+	text-align: center;
+	background-color: #2c2c2c;
+	height: 35px;
+}
+
+
+.info li a:hover{
+	border: 1px solid #ea393f;
+}
+
+.info li a img{
+	height: 100%; 
+}
+
+
+
+
+
+
 
 
 
@@ -128,6 +260,7 @@ footer{
 	padding-top: 75px;
 	border-top: 1px solid #ea393f;
 	box-shadow: 0px 5px 10px #1e1e1e inset; 	
+
 
 }
 
@@ -145,7 +278,6 @@ footer img{
 }
 
 footer ul{
-	list-style-type: none;
 	padding: 0;
 	margin: 0 0 0 3rem;
 	letter-spacing: .05rem;
@@ -153,7 +285,6 @@ footer ul{
 }
 
 footer li{
-	font-size: .8rem;
 	font-size: .8rem;
 	color: #808080;
 	margin-bottom: 5px;
@@ -163,5 +294,130 @@ footer li{
 	width: 100%;
 	height: 55%;
 	border-right: 1px solid #808080;
+}
+
+
+
+
+/*Bag CSS*/
+
+
+.bag{
+	float: left;
+	margin: 20px;;
+}
+
+.productImage{
+	padding-right: 20px;
+
+}
+
+.productImage img{
+	border-top: 1px solid #ea393f;
+}
+
+.bagSubtotal{
+	text-align: center;
+}
+	
+
+.bagTotal{
+	text-align:right;
+}
+
+.bagButtons{
+	text-align: center;
+
+}
+	
+.bagButtons a{
+	font-weight: 100;
+	font-size: .9rem;
+	color: #DEDEDE;
+	float: left;
+	padding: 10px;
+	margin: 1px;
+	width: 90%;
+	text-align: center;
+	background-color: #2c2c2c;
+
+	
+}
+
+
+.bagButtons a:hover{
+	border: 1px solid #ea393f;
+}
+
+
+
+
+.bagHeading {
+	height: 60px;
+	position: relative;
+	max-width: 100%;
+
+}
+
+.bagHeading h2 {
+	font-size: 2.5rem;
+	bottom: 0.2rem;
+	position: absolute;
+	
+}
+
+.customerLogin, .guestLogin{
+	float:left;
+}
+
+.billingAdd, .shippingAdd{
+	float:left;
+	
+}
+
+.storeHours li{
+	width:100%;
+}
+
+
+.thanksMessage{
+	padding: 1rem;
+}
+
+
+/*tablet*/
+@media (max-width: 800px) {
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*phone*/
+@media (max-width: 480px) {
+
+a{
+	font-size: 1.5rem;
+}
+
+nav ul li{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+	
+nav ul li li a{
+	font-size: 1rem;
+	color: #808080;
+	letter-spacing: .05rem;
+}
+
 }
 
